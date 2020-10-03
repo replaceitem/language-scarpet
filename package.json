@@ -1,0 +1,12 @@
+{
+  "name": "language-scarpet",
+  "version": "1.0.0",
+  "description": "Scarpet language support for Atom",
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {},
+  "repository": {},
+  "bugs": {},
+  "license": "MIT"
+}
