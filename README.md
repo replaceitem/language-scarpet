@@ -1,4 +1,4 @@
-# Scarpet grammar for Atom
+# Scarpet syntax highlighting for Atom
 
 ## Installation
 
