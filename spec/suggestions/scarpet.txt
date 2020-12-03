@@ -230,47 +230,6 @@ f volume
 f without_updates
 f world_time
 f write_file
-f __command
-f __config
-f __on_chunk_generated
-f __on_close
-f __on_player_attacks_entity
-f __on_player_breaks_block
-f __on_player_clicks_block
-f __on_player_changes_dimension
-f __on_player_chooses_recipe
-f __on_player_collides_with_entity
-f __on_player_deploys_elytra
-f __on_player_drops_item
-f __on_player_drops_stack
-f __on_player_finishes_using_item
-f __on_player_interacts_with_block
-f __on_player_interacts_with_entity
-f __on_player_jumps
-f __on_player_picks_up_item
-f __on_player_places_block
-f __on_player_releases_item
-f __on_player_rides
-f __on_player_right_clicks_block
-f __on_player_starts_sneaking
-f __on_player_starts_sprinting
-f __on_player_stops_sneaking
-f __on_player_stops_sprinting
-f __on_player_switches_slot
-f __on_player_swaps_hands
-f __on_player_uses_item
-f __on_player_wakes_up
-f __on_player_escapes_sleep
-f __on_statistic
-f __on_tick
-f __on_tick_ender
-f __on_tick_nether
-f __on_player_takes_damage
-f __on_player_deals_damage
-f __on_player_dies
-f __on_player_respawns
-f __on_player_disconnects
-f __on_player_connects
 v _
 v _a
 v _i
@@ -282,3 +241,44 @@ v false
 v null
 v pi
 v true
+f __command() ->
+f __config() ->
+f __on_chunk_generated(x, z) ->
+f __on_close() ->
+f __on_player_attacks_entity(player, entity) ->
+f __on_player_breaks_block(player, block) ->
+f __on_player_clicks_block(player, block, face) ->
+f __on_player_changes_dimension(player, from_pos, from_dimension, to_pos, to_dimension) ->
+f __on_player_chooses_recipe(player, recipe, full_stack) ->
+f __on_player_collides_with_entity(player, entity) ->
+f __on_player_deploys_elytra(player) ->
+f __on_player_drops_item(player) ->
+f __on_player_drops_stack(player) ->
+f __on_player_finishes_using_item(player, item_tuple, hand) ->
+f __on_player_interacts_with_block(player, hand, block, face, hitvec) ->
+f __on_player_interacts_with_entity(player, entity, hand) ->
+f __on_player_jumps(player) ->
+f __on_player_picks_up_item(player, item) ->
+f __on_player_places_block(player, item_tuple, hand, block) ->
+f __on_player_releases_item(player, item_tuple, hand) ->
+f __on_player_rides(player, forward, strafe, jumping, sneaking) ->
+f __on_player_right_clicks_block(player, item_tuple, hand, block, face, hitvec) ->
+f __on_player_starts_sneaking(player) ->
+f __on_player_starts_sprinting(player) ->
+f __on_player_stops_sneaking(player) ->
+f __on_player_stops_sprinting(player) ->
+f __on_player_switches_slot(player, from, to) ->
+f __on_player_swaps_hands(player) ->
+f __on_player_uses_item(player, item_tuple, hand) ->
+f __on_player_wakes_up(player) ->
+f __on_player_escapes_sleep(player) ->
+f __on_statistic(player, category, event, value) ->
+f __on_tick() ->
+f __on_tick_ender() ->
+f __on_tick_nether() ->
+f __on_player_takes_damage(player, amount, source, source_entity) ->
+f __on_player_deals_damage(player, amount, entity) ->
+f __on_player_dies(player) ->
+f __on_player_respawns(player) ->
+f __on_player_disconnects(player, reason) ->
+f __on_player_connects(player) ->
