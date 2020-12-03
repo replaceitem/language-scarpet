@@ -1,0 +1,6 @@
+'.source.scarpet':
+  'editor':
+    'autoIndentOnPaste': true
+    'softTabs': true
+    'tabLength': 4
+    'commentStart': '// '

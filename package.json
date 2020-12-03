@@ -8,5 +8,13 @@
   "dependencies": {},
   "repository": {},
   "bugs": {},
-  "license": "MIT"
+  "main": "./lib/main",
+  "license": "MIT",
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "4.0.0": "getProvider"
+      }
+    }
+  }
 }

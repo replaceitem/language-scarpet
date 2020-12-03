@@ -11,4 +11,5 @@ Now restart Atom, and any file with `.sc` or `.scl` will open with Scarpet synta
 ## Need help?
 
 Message me on Discord:
+
 `replaceitem#9118`
