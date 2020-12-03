@@ -33,7 +33,7 @@ module.exports =
     atom.project.rootDirectories[0].path;
 
   buildFunctionSuggestion: (line) ->
-    keyword = line.split(' ')
+    keyword = line.split(':')
     typeChar = keyword[0]
     name = keyword[1]
     if typeChar == 'f'
