@@ -5,9 +5,19 @@
   "engines": {
     "atom": "*"
   },
+  "keywords": [
+   "scarpet",
+   "autocomplete",
+   "carpet"
+ ],
   "dependencies": {},
-  "repository": {},
-  "bugs": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/replaceitem/scarpet-language-atom"
+  },
+  "bugs": {
+      "url": "https://github.com/replaceitem/scarpet-language-atom/issues"
+  },
   "main": "./lib/main",
   "license": "MIT",
   "providedServices": {
