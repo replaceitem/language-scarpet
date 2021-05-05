@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Scarpet language support for Atom",
   "engines": {
-    "atom": "*"
+    "atom": ">=0.1.0"
   },
   "keywords": [
    "scarpet",
