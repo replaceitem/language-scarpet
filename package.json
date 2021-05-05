@@ -1,22 +1,22 @@
 {
   "name": "language-scarpet",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Scarpet language support for Atom",
   "engines": {
     "atom": ">=0.1.0"
   },
   "keywords": [
-   "scarpet",
-   "autocomplete",
-   "carpet"
- ],
+    "scarpet",
+    "autocomplete",
+    "carpet"
+  ],
   "dependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/replaceitem/language-scarpet.git"
   },
   "bugs": {
-      "url": "https://github.com/replaceitem/language-scarpet/issues"
+    "url": "https://github.com/replaceitem/language-scarpet/issues"
   },
   "main": "./lib/main",
   "license": "MIT",
