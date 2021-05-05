@@ -3,6 +3,7 @@ f:acos
 f:acosh
 f:acot
 f:all
+f:and
 f:asin
 f:asinh
 f:atan
@@ -21,8 +22,11 @@ f:cot
 f:coth
 f:csc
 f:csch
+f:decreasing
 f:deg
 f:delete
+f:difference
+f:equal
 f:exit
 f:fact
 f:filter
@@ -34,6 +38,7 @@ f:has
 f:hash_code
 f:if
 f:import
+f:increasing
 f:join
 f:keys
 f:l
@@ -48,14 +53,19 @@ f:mandelbrot
 f:map
 f:max
 f:min
+f:nondecreasing
+f:nonincreasing
 f:not
 f:number
+f:or
 f:outer
 f:pairs
 f:perlin
 f:print
+f:product
 f:profile_expr
 f:put
+f:quotient
 f:rad
 f:rand
 f:range
@@ -63,6 +73,7 @@ f:reduce
 f:relu
 f:replace
 f:replace_first
+f:reset_seed
 f:return
 f:round
 f:sec
@@ -74,6 +85,7 @@ f:sleep
 f:slice
 f:sort
 f:sort_key
+f:sum
 f:synchronize
 f:system_variable_get
 f:system_variable_set
@@ -89,12 +101,14 @@ f:task_dock
 f:task_join
 f:task_thread
 f:task_value
+f:then
 f:throw
 f:time
 f:title
 f:try
 f:type
 f:undef
+f:unique
 f:upper
 f:values
 f:var
@@ -117,10 +131,12 @@ f:blocks_movement
 f:bossbar
 f:brightness
 f:chunk_tickets
+f:convert_date
 f:crafting_remaining_item
+f:create_datapack
+f:create_explosion
 f:create_marker
 f:current_dimension
-f:custom_dimension
 f:day_time
 f:delete_file
 f:destroy
@@ -129,6 +145,7 @@ f:display_title
 f:draw_shape
 f:drop_item
 f:emitted_light
+f:enable_hidden_dimensions
 f:encode_nbt
 f:entity_area
 f:entity_event
@@ -154,6 +171,8 @@ f:inventory_remove
 f:inventory_set
 f:inventory_size
 f:item_category
+f:item_list
+f:item_tags
 f:last_tick_times
 f:light
 f:liquid
@@ -166,6 +185,7 @@ f:map_colour
 f:material
 f:modify
 f:nbt
+f:nbt_storage
 f:neighbours
 f:opacity
 f:parse_nbt
@@ -194,6 +214,7 @@ f:scoreboard
 f:scoreboard_add
 f:scoreboard_remove
 f:scoreboard_display
+f:scoreboard_property
 f:tag_matches
 f:team_add
 f:team_leave
@@ -225,6 +246,7 @@ f:ticks_randomly
 f:top
 f:transparent
 f:update
+f:unix_time
 f:view_distance
 f:volume
 f:without_updates
@@ -236,6 +258,7 @@ v:_i
 v:_x
 v:_y
 v:_z
+v:_trace
 v:euler
 v:false
 v:null
@@ -243,8 +266,8 @@ v:pi
 v:true
 f:__command() -> 
 f:__config() -> 
-f:__on_chunk_generated(x, z) -> 
-f:__on_close() -> 
+f:__on_chunk_generated(x, z) ->
+f:__on_close() ->
 f:__on_player_attacks_entity(player, entity) -> 
 f:__on_player_breaks_block(player, block) -> 
 f:__on_player_clicks_block(player, block, face) ->
@@ -266,13 +289,17 @@ f:__on_player_right_clicks_block(player, item_tuple, hand, block, face, hitvec) 
 f:__on_player_starts_sneaking(player) -> 
 f:__on_player_starts_sprinting(player) -> 
 f:__on_player_stops_sneaking(player) -> 
-f:__on_player_stops_sprinting(player) -> 
-f:__on_player_switches_slot(player, from, to) -> 
-f:__on_player_swaps_hands(player) -> 
+f:__on_player_stops_sprinting(player) ->
+f:__on_player_swings_hand(player, hand) ->
+f:__on_player_switches_slot(player, from, to) ->
+f:__on_player_swaps_hands(player) ->
+f:__on_player_takes_damage(player, amount, source, entity) ->
+f:__on_player_trades(player, entity, buy_left, buy_right, sell) ->
 f:__on_player_uses_item(player, item_tuple, hand) -> 
 f:__on_player_wakes_up(player) ->
 f:__on_player_escapes_sleep(player) ->
-f:__on_statistic(player, category, event, value) -> 
+f:__on_statistic(player, category, event, value) ->
+f:__on_start() ->
 f:__on_tick() -> 
 f:__on_tick_ender() -> 
 f:__on_tick_nether() -> 
@@ -282,3 +309,5 @@ f:__on_player_dies(player) ->
 f:__on_player_respawns(player) -> 
 f:__on_player_disconnects(player, reason) -> 
 f:__on_player_connects(player) -> 
+f:__on_explosion(pos, power, source, causer, mode, fire) ->
+f:__on_explosion_outcome(pos, power, source, causer, mode, fire, blocks, entities) ->
