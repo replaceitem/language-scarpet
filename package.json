@@ -13,10 +13,10 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/replaceitem/scarpet-language-atom"
+    "url": "https://github.com/replaceitem/language-scarpet.git"
   },
   "bugs": {
-      "url": "https://github.com/replaceitem/scarpet-language-atom/issues"
+      "url": "https://github.com/replaceitem/language-scarpet/issues"
   },
   "main": "./lib/main",
   "license": "MIT",
