@@ -2,7 +2,7 @@
 
 ## Installation
 
-Install the [scarpet-language](atom://settings-view/show-package?package=language-scarpet) package.
+Install the [scarpet-language](https://atom.io/packages/language-scarpet) package in the Atom package manager (File | Settings | Install -> Search "scarpet-language").
 
 Now any file with `.sc` or `.scl` will open with Scarpet syntax highlighting and autocompletion by default.
 
