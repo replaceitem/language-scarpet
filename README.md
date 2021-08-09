@@ -16,6 +16,7 @@ Message me on Discord:
 
 ## Preview
 
+
 <img alt="Syntax highlighting" width="900" src="https://raw.githubusercontent.com/replaceitem/language-scarpet/master/syntax-highlighting-preview.png" />
 
 <img alt="Autocompletion" width="900" src="https://raw.githubusercontent.com/replaceitem/language-scarpet/master/autocomplete-preview1.png" />
