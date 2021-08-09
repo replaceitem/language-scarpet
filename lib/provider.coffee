@@ -38,7 +38,7 @@ module.exports =
     try
       results = []
       for factory_file in fs.readdirSync("#{@getRootDirectory()}#{@suggestionDirectory()}")
-        data = fs.readFileSync "#{@getRootDirectory()}#{@suggestionDirectory()}\\#{factory_file}", 'utf8'
+        data = fs.readFileSync "#{@getRootDirectory()}#{@suggestionDirectory()}/#{factory_file}", 'utf8'
         data = data.split('\n')
         for keyword in data
           if keyword != ''
@@ -51,7 +51,7 @@ module.exports =
     atom.packages.resolvePackagePath('language-scarpet')
 
   suggestionDirectory: ->
-    "\\spec\\suggestions"
+    "/spec/suggestions"
 
   buildFunctionSuggestion: (line) ->
     keyword = line.split(':')
