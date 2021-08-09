@@ -8,24 +8,18 @@ module.exports =
   filterSuggestions: true
 
   load: () ->
-    console.log('loading')
     completions = @scanFactories()
-    console.log(completions)
     @bindEvents()
-    console.log('loaded')
   bindEvents: ->
-    console.log('bind')
     atom.workspace.observeTextEditors (editor) =>
-      console.log('observe')
       editor.onDidSave (event) =>
-        console.log("save")
         if event.path.includes @suggestionDirectory()
           completions = @scanFactories()
 
   getSuggestions: ({editor, bufferPosition, scopeDescriptor, prefix}) ->
     ret = []
     if completions == undefined
-      console.log('Undefined!')
+        console.log('Could not find completions')
     else
       for suggestion in completions
         if(prefix == '' || !firstCharsEqual(suggestion.displayText, prefix))
@@ -34,7 +28,6 @@ module.exports =
     ret
 
   scanFactories: () ->
-    console.log("ScanFactories in #{@getRootDirectory()}#{@suggestionDirectory()}")
     try
       results = []
       for factory_file in fs.readdirSync("#{@getRootDirectory()}#{@suggestionDirectory()}")
