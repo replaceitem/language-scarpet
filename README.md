@@ -1,5 +1,7 @@
 # Scarpet syntax highlighting and autocompletion for Atom
 
+![Latest package version](https://img.shields.io/apm/v/language-scarpet.svg?colorB=brightgreen)
+
 ## Installation
 
 Install the [scarpet-language](https://atom.io/packages/language-scarpet) package in the Atom package manager (File | Settings | Install -> Search "scarpet-language").
@@ -14,8 +16,8 @@ Message me on Discord:
 
 ## Preview
 
-![Syntax highlighting](syntax-highlighting-preview.png)
+<img alt="Syntax highlighting" width="900" src="https://raw.githubusercontent.com/replaceitem/language-scarpet/master/syntax-highlighting-preview.png" />
 
-![Autocompletion](autocomplete-preview1.png)
+<img alt="Autocompletion" width="900" src="https://raw.githubusercontent.com/replaceitem/language-scarpet/master/autocomplete-preview1.png" />
 
-![Autocompletion](autocomplete-preview2.png)
+<img alt="Autocompletion" width="900" src="https://raw.githubusercontent.com/replaceitem/language-scarpet/master/autocomplete-preview2.png" />
