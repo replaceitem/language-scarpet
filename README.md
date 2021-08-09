@@ -14,8 +14,8 @@ Message me on Discord:
 
 ## Preview
 
-![Syntax highlighting](syntax-highlighting-preview.png)
+![Syntax highlighting](https://github.com/replaceitem/language-scarpet/blob/master/syntax-highlighting-preview.png)
 
-![Autocompletion](autocomplete-preview1.png)
+![Autocompletion](https://github.com/replaceitem/language-scarpet/blob/master/autocomplete-preview1.png)
 
-![Autocompletion](autocomplete-preview2.png)
+![Autocompletion](https://github.com/replaceitem/language-scarpet/blob/master/autocomplete-preview2.png)
