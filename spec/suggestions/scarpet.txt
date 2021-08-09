@@ -267,6 +267,7 @@ v:true
 f:__command() -> 
 f:__config() -> 
 f:__on_chunk_generated(x, z) ->
+f:__on_chunk_loaded(x, z) ->
 f:__on_close() ->
 f:__on_player_attacks_entity(player, entity) -> 
 f:__on_player_breaks_block(player, block) -> 
@@ -300,7 +301,7 @@ f:__on_player_wakes_up(player) ->
 f:__on_player_escapes_sleep(player) ->
 f:__on_statistic(player, category, event, value) ->
 f:__on_start() ->
-f:__on_tick() -> 
+f:__on_tick() ->
 f:__on_tick_ender() -> 
 f:__on_tick_nether() -> 
 f:__on_player_takes_damage(player, amount, source, source_entity) -> 

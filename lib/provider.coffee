@@ -19,7 +19,7 @@ module.exports =
   getSuggestions: ({editor, bufferPosition, scopeDescriptor, prefix}) ->
     ret = []
     if completions == undefined
-        console.log('Could not find completions')
+        console.error('Could not find autocompletions')
     else
       for suggestion in completions
         if(prefix == '' || !firstCharsEqual(suggestion.displayText, prefix))
