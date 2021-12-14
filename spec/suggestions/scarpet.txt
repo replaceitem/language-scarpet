@@ -1,326 +1,326 @@
-f:abs
-f:acos
-f:acosh
-f:acot
-f:all
-f:and
-f:asin
-f:asinh
-f:atan
-f:atan2
-f:atanh
-f:bitwise_and
-f:bitwise_or
-f:bitwise_xor
-f:bitwise_shift_left
-f:bitwise_shift_right
-f:bitwise_roll_left
-f:bitwise_roll_right
-f:bitwise_not
-f:bitwise_popcount
-f:bool
-f:break
-f:call
-f:ceil
-f:c_for
-f:continue
-f:copy
-f:cos
-f:cosh
-f:cot
-f:coth
-f:csc
-f:csch
-f:decreasing
-f:deg
-f:delete
-f:difference
-f:double_to_long_bits
-f:equal
-f:exit
-f:fact
-f:filter
-f:first
-f:floor
-f:for
-f:get
-f:has
-f:hash_code
-f:if
-f:import
-f:increasing
-f:join
-f:keys
-f:l
-f:length
-f:log
-f:log10
-f:log1p
-f:long_bits_to_double
-f:loop
-f:lower
-f:m
-f:mandelbrot
-f:map
-f:max
-f:min
-f:nondecreasing
-f:nonincreasing
-f:not
-f:number
-f:or
-f:outer
-f:pairs
-f:perlin
-f:print
-f:product
-f:profile_expr
-f:put
-f:quotient
-f:rad
-f:rand
-f:range
-f:reduce
-f:relu
-f:replace
-f:replace_first
-f:reset_seed
-f:return
-f:round
-f:sec
-f:sech
-f:simplex
-f:sin
-f:sinh
-f:sleep
-f:slice
-f:sort
-f:sort_key
-f:sum
-f:synchronize
-f:system_variable_get
-f:system_variable_set
-f:split
-f:sqrt
-f:str
-f:tan
-f:tanh
-f:task
-f:task_completed
-f:task_count
-f:task_dock
-f:task_join
-f:task_thread
-f:task_value
-f:then
-f:throw
-f:time
-f:title
-f:try
-f:type
-f:undef
-f:unique
-f:upper
-f:values
-f:var
-f:vars
-f:while
-f:air
-f:add_chunk_ticket
-f:biome
-f:blast_resistance
-f:block
-f:block_data
-f:block_light
-f:block_list
-f:block_sound
-f:block_state
-f:block_tick
-f:block_tags
-f:blocks_daylight
-f:blocks_movement
-f:bossbar
-f:brightness
-f:chunk_tickets
-f:convert_date
-f:crafting_remaining_item
-f:create_datapack
-f:create_explosion
-f:create_marker
-f:current_dimension
-f:day_time
-f:delete_file
-f:destroy
-f:diamond
-f:display_title
-f:draw_shape
-f:drop_item
-f:emitted_light
-f:enable_hidden_dimensions
-f:encode_nbt
-f:entity_area
-f:entity_event
-f:entity_id
-f:entity_list
-f:entity_load_handler
-f:entity_selector
-f:entity_types
-f:escape_nbt
-f:flammable
-f:format
-f:game_tick
-f:generation_status
-f:handle_event
-f:hardness
-f:harvest
-f:in_dimension
-f:in_slime_chunk
-f:inhabited_time
-f:inventory_find
-f:inventory_get
-f:inventory_remove
-f:inventory_set
-f:inventory_size
-f:item_category
-f:item_list
-f:item_tags
-f:last_tick_times
-f:light
-f:liquid
-f:list_files
-f:load_app_data
-f:loaded
-f:loaded_status
-f:logger
-f:map_colour
-f:material
-f:modify
-f:nbt
-f:nbt_storage
-f:neighbours
-f:opacity
-f:parse_nbt
-f:particle
-f:particle_line
-f:particle_rect
-f:place_item
-f:player
-f:plop
-f:poi
-f:pos
-f:pos_offset
-f:power
-f:query
-f:random_tick
-f:recipe_data
-f:rect
-f:reload_chunk
-f:remove_all_markers
-f:reset_chunk
-f:run
-f:sample_noise
-f:save
-f:scan
-f:schedule
-f:scoreboard
-f:scoreboard_add
-f:scoreboard_remove
-f:scoreboard_display
-f:scoreboard_property
-f:tag_matches
-f:team_add
-f:team_leave
-f:team_list
-f:team_property
-f:team_remove
-f:read_file
-f:see_sky
-f:set
-f:set_biome
-f:set_poi
-f:set_structure
-f:signal_event
-f:sky_light
-f:solid
-f:sound
-f:spawn
-f:spawn_potential
-f:stack_limit
-f:statistic
-f:store_app_data
-f:structures
-f:structure_eligibility
-f:structure_references
-f:suffocates
-f:system_info
-f:tick_time
-f:ticks_randomly
-f:top
-f:transparent
-f:update
-f:unix_time
-f:view_distance
-f:volume
-f:without_updates
-f:world_time
-f:write_file
-v:_
-v:_a
-v:_i
-v:_x
-v:_y
-v:_z
-v:_trace
-v:euler
-v:false
-v:null
-v:pi
-v:true
-f:__command() ->
-f:__config() ->
-f:__on_chunk_generated(x, z) ->
-f:__on_chunk_loaded(x, z) ->
-f:__on_close() ->
-f:__on_player_attacks_entity(player, entity) ->
-f:__on_player_breaks_block(player, block) ->
-f:__on_player_clicks_block(player, block, face) ->
-f:__on_player_changes_dimension(player, from_pos, from_dimension, to_pos, to_dimension) ->
-f:__on_player_chooses_recipe(player, recipe, full_stack) ->
-f:__on_player_collides_with_entity(player, entity) ->
-f:__on_player_deploys_elytra(player) ->
-f:__on_player_drops_item(player) ->
-f:__on_player_drops_stack(player) ->
-f:__on_player_finishes_using_item(player, item_tuple, hand) ->
-f:__on_player_interacts_with_block(player, hand, block, face, hitvec) ->
-f:__on_player_interacts_with_entity(player, entity, hand) ->
-f:__on_player_jumps(player) ->
-f:__on_player_picks_up_item(player, item) ->
-f:__on_player_places_block(player, item_tuple, hand, block) ->
-f:__on_player_releases_item(player, item_tuple, hand) ->
-f:__on_player_rides(player, forward, strafe, jumping, sneaking) ->
-f:__on_player_right_clicks_block(player, item_tuple, hand, block, face, hitvec) ->
-f:__on_player_starts_sneaking(player) ->
-f:__on_player_starts_sprinting(player) ->
-f:__on_player_stops_sneaking(player) ->
-f:__on_player_stops_sprinting(player) ->
-f:__on_player_swings_hand(player, hand) ->
-f:__on_player_switches_slot(player, from, to) ->
-f:__on_player_swaps_hands(player) ->
-f:__on_player_takes_damage(player, amount, source, entity) ->
-f:__on_player_trades(player, entity, buy_left, buy_right, sell) ->
-f:__on_player_uses_item(player, item_tuple, hand) ->
-f:__on_player_wakes_up(player) ->
-f:__on_player_escapes_sleep(player) ->
-f:__on_statistic(player, category, event, value) ->
-f:__on_start() ->
-f:__on_tick() ->
-f:__on_tick_ender() ->
-f:__on_tick_nether() ->
-f:__on_player_takes_damage(player, amount, source, source_entity) ->
-f:__on_player_deals_damage(player, amount, entity) ->
-f:__on_player_dies(player) ->
-f:__on_player_respawns(player) ->
-f:__on_player_disconnects(player, reason) ->
-f:__on_player_connects(player) ->
-f:__on_explosion(pos, power, source, causer, mode, fire) ->
-f:__on_explosion_outcome(pos, power, source, causer, mode, fire, blocks, entities) ->
+function:abs
+function:acos
+function:acosh
+function:acot
+function:all
+function:and
+function:asin
+function:asinh
+function:atan
+function:atan2
+function:atanh
+function:bitwise_and
+function:bitwise_or
+function:bitwise_xor
+function:bitwise_shift_left
+function:bitwise_shift_right
+function:bitwise_roll_left
+function:bitwise_roll_right
+function:bitwise_not
+function:bitwise_popcount
+function:bool
+function:break
+function:call
+function:ceil
+function:c_for
+function:continue
+function:copy
+function:cos
+function:cosh
+function:cot
+function:coth
+function:csc
+function:csch
+function:decreasing
+function:deg
+function:delete
+function:difference
+function:double_to_long_bits
+function:equal
+function:exit
+function:fact
+function:filter
+function:first
+function:floor
+function:for
+function:get
+function:has
+function:hash_code
+function:if
+function:import
+function:increasing
+function:join
+function:keys
+function:l
+function:length
+function:log
+function:log10
+function:log1p
+function:long_bits_to_double
+function:loop
+function:lower
+function:m
+function:mandelbrot
+function:map
+function:max
+function:min
+function:nondecreasing
+function:nonincreasing
+function:not
+function:number
+function:or
+function:outer
+function:pairs
+function:perlin
+function:print
+function:product
+function:profile_expr
+function:put
+function:quotient
+function:rad
+function:rand
+function:range
+function:reduce
+function:relu
+function:replace
+function:replace_first
+function:reset_seed
+function:return
+function:round
+function:sec
+function:sech
+function:simplex
+function:sin
+function:sinh
+function:sleep
+function:slice
+function:sort
+function:sort_key
+function:sum
+function:synchronize
+function:system_variable_get
+function:system_variable_set
+function:split
+function:sqrt
+function:str
+function:tan
+function:tanh
+function:task
+function:task_completed
+function:task_count
+function:task_dock
+function:task_join
+function:task_thread
+function:task_value
+function:then
+function:throw
+function:time
+function:title
+function:try
+function:type
+function:undef
+function:unique
+function:upper
+function:values
+function:var
+function:vars
+function:while
+function:air
+function:add_chunk_ticket
+function:biome
+function:blast_resistance
+function:block
+function:block_data
+function:block_light
+function:block_list
+function:block_sound
+function:block_state
+function:block_tick
+function:block_tags
+function:blocks_daylight
+function:blocks_movement
+function:bossbar
+function:brightness
+function:chunk_tickets
+function:convert_date
+function:crafting_remaining_item
+function:create_datapack
+function:create_explosion
+function:create_marker
+function:current_dimension
+function:day_time
+function:delete_file
+function:destroy
+function:diamond
+function:display_title
+function:draw_shape
+function:drop_item
+function:emitted_light
+function:enable_hidden_dimensions
+function:encode_nbt
+function:entity_area
+function:entity_event
+function:entity_id
+function:entity_list
+function:entity_load_handler
+function:entity_selector
+function:entity_types
+function:escape_nbt
+function:flammable
+function:format
+function:game_tick
+function:generation_status
+function:handle_event
+function:hardness
+function:harvest
+function:in_dimension
+function:in_slime_chunk
+function:inhabited_time
+function:inventory_find
+function:inventory_get
+function:inventory_remove
+function:inventory_set
+function:inventory_size
+function:item_category
+function:item_list
+function:item_tags
+function:last_tick_times
+function:light
+function:liquid
+function:list_files
+function:load_app_data
+function:loaded
+function:loaded_status
+function:logger
+function:map_colour
+function:material
+function:modify
+function:nbt
+function:nbt_storage
+function:neighbours
+function:opacity
+function:parse_nbt
+function:particle
+function:particle_line
+function:particle_rect
+function:place_item
+function:player
+function:plop
+function:poi
+function:pos
+function:pos_offset
+function:power
+function:query
+function:random_tick
+function:recipe_data
+function:rect
+function:reload_chunk
+function:remove_all_markers
+function:reset_chunk
+function:run
+function:sample_noise
+function:save
+function:scan
+function:schedule
+function:scoreboard
+function:scoreboard_add
+function:scoreboard_remove
+function:scoreboard_display
+function:scoreboard_property
+function:tag_matches
+function:team_add
+function:team_leave
+function:team_list
+function:team_property
+function:team_remove
+function:read_file
+function:see_sky
+function:set
+function:set_biome
+function:set_poi
+function:set_structure
+function:signal_event
+function:sky_light
+function:solid
+function:sound
+function:spawn
+function:spawn_potential
+function:stack_limit
+function:statistic
+function:store_app_data
+function:structures
+function:structure_eligibility
+function:structure_references
+function:suffocates
+function:system_info
+function:tick_time
+function:ticks_randomly
+function:top
+function:transparent
+function:update
+function:unix_time
+function:view_distance
+function:volume
+function:without_updates
+function:world_time
+function:write_file
+builtin:_
+builtin:_a
+builtin:_i
+builtin:_x
+builtin:_y
+builtin:_z
+builtin:_trace
+constant:euler
+constant:false
+constant:null
+constant:pi
+constant:true
+method:__command() ->
+method:__config() ->
+method:__on_chunk_generated(x, z) ->
+method:__on_chunk_loaded(x, z) ->
+method:__on_close() ->
+method:__on_player_attacks_entity(player, entity) ->
+method:__on_player_breaks_block(player, block) ->
+method:__on_player_clicks_block(player, block, face) ->
+method:__on_player_changes_dimension(player, from_pos, from_dimension, to_pos, to_dimension) ->
+method:__on_player_chooses_recipe(player, recipe, full_stack) ->
+method:__on_player_collides_with_entity(player, entity) ->
+method:__on_player_deploys_elytra(player) ->
+method:__on_player_drops_item(player) ->
+method:__on_player_drops_stack(player) ->
+method:__on_player_finishes_using_item(player, item_tuple, hand) ->
+method:__on_player_interacts_with_block(player, hand, block, face, hitvec) ->
+method:__on_player_interacts_with_entity(player, entity, hand) ->
+method:__on_player_jumps(player) ->
+method:__on_player_picks_up_item(player, item) ->
+method:__on_player_places_block(player, item_tuple, hand, block) ->
+method:__on_player_releases_item(player, item_tuple, hand) ->
+method:__on_player_rides(player, forward, strafe, jumping, sneaking) ->
+method:__on_player_right_clicks_block(player, item_tuple, hand, block, face, hitvec) ->
+method:__on_player_starts_sneaking(player) ->
+method:__on_player_starts_sprinting(player) ->
+method:__on_player_stops_sneaking(player) ->
+method:__on_player_stops_sprinting(player) ->
+method:__on_player_swings_hand(player, hand) ->
+method:__on_player_switches_slot(player, from, to) ->
+method:__on_player_swaps_hands(player) ->
+method:__on_player_takes_damage(player, amount, source, entity) ->
+method:__on_player_trades(player, entity, buy_left, buy_right, sell) ->
+method:__on_player_uses_item(player, item_tuple, hand) ->
+method:__on_player_wakes_up(player) ->
+method:__on_player_escapes_sleep(player) ->
+method:__on_statistic(player, category, event, value) ->
+method:__on_start() ->
+method:__on_tick() ->
+method:__on_tick_ender() ->
+method:__on_tick_nether() ->
+method:__on_player_takes_damage(player, amount, source, source_entity) ->
+method:__on_player_deals_damage(player, amount, entity) ->
+method:__on_player_dies(player) ->
+method:__on_player_respawns(player) ->
+method:__on_player_disconnects(player, reason) ->
+method:__on_player_connects(player) ->
+method:__on_explosion(pos, power, source, causer, mode, fire) ->
+method:__on_explosion_outcome(pos, power, source, causer, mode, fire, blocks, entities) ->

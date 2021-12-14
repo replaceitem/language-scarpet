@@ -48,18 +48,18 @@ module.exports =
 
   buildFunctionSuggestion: (line) ->
     keyword = line.split(':')
-    typeChar = keyword[0]
+    typeString = keyword[0]
     name = keyword[1]
-    if typeChar == 'f'
-      typeString = 'function'
+    if typeString == 'function' || typeString == 'method'
       snippetString = "#{name}(${1:})"
-    if typeChar == 'v'
-      typeString = 'variable'
+    else
       snippetString = name
     sug =
       displayText: name
       snippet: snippetString
       type: typeString
+      description: 'For help, see the scarpet documentation:'
+      descriptionMoreURL: 'https://github.com/gnembon/fabric-carpet/blob/master/docs/scarpet/Full.md'
     sug
 
 firstCharsEqual = (str1, str2) ->
