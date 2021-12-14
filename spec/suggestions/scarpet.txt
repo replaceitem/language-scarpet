@@ -9,6 +9,15 @@ f:asinh
 f:atan
 f:atan2
 f:atanh
+f:bitwise_and
+f:bitwise_or
+f:bitwise_xor
+f:bitwise_shift_left
+f:bitwise_shift_right
+f:bitwise_roll_left
+f:bitwise_roll_right
+f:bitwise_not
+f:bitwise_popcount
 f:bool
 f:break
 f:call
@@ -26,6 +35,7 @@ f:decreasing
 f:deg
 f:delete
 f:difference
+f:double_to_long_bits
 f:equal
 f:exit
 f:fact
@@ -46,6 +56,7 @@ f:length
 f:log
 f:log10
 f:log1p
+f:long_bits_to_double
 f:loop
 f:lower
 f:m
@@ -207,6 +218,7 @@ f:reload_chunk
 f:remove_all_markers
 f:reset_chunk
 f:run
+f:sample_noise
 f:save
 f:scan
 f:schedule
@@ -264,51 +276,51 @@ v:false
 v:null
 v:pi
 v:true
-f:__command() -> 
-f:__config() -> 
+f:__command() ->
+f:__config() ->
 f:__on_chunk_generated(x, z) ->
 f:__on_chunk_loaded(x, z) ->
 f:__on_close() ->
-f:__on_player_attacks_entity(player, entity) -> 
-f:__on_player_breaks_block(player, block) -> 
+f:__on_player_attacks_entity(player, entity) ->
+f:__on_player_breaks_block(player, block) ->
 f:__on_player_clicks_block(player, block, face) ->
-f:__on_player_changes_dimension(player, from_pos, from_dimension, to_pos, to_dimension) -> 
-f:__on_player_chooses_recipe(player, recipe, full_stack) -> 
-f:__on_player_collides_with_entity(player, entity) -> 
-f:__on_player_deploys_elytra(player) -> 
-f:__on_player_drops_item(player) -> 
-f:__on_player_drops_stack(player) -> 
-f:__on_player_finishes_using_item(player, item_tuple, hand) -> 
-f:__on_player_interacts_with_block(player, hand, block, face, hitvec) -> 
-f:__on_player_interacts_with_entity(player, entity, hand) -> 
-f:__on_player_jumps(player) -> 
-f:__on_player_picks_up_item(player, item) -> 
-f:__on_player_places_block(player, item_tuple, hand, block) -> 
-f:__on_player_releases_item(player, item_tuple, hand) -> 
-f:__on_player_rides(player, forward, strafe, jumping, sneaking) -> 
-f:__on_player_right_clicks_block(player, item_tuple, hand, block, face, hitvec) -> 
-f:__on_player_starts_sneaking(player) -> 
-f:__on_player_starts_sprinting(player) -> 
-f:__on_player_stops_sneaking(player) -> 
+f:__on_player_changes_dimension(player, from_pos, from_dimension, to_pos, to_dimension) ->
+f:__on_player_chooses_recipe(player, recipe, full_stack) ->
+f:__on_player_collides_with_entity(player, entity) ->
+f:__on_player_deploys_elytra(player) ->
+f:__on_player_drops_item(player) ->
+f:__on_player_drops_stack(player) ->
+f:__on_player_finishes_using_item(player, item_tuple, hand) ->
+f:__on_player_interacts_with_block(player, hand, block, face, hitvec) ->
+f:__on_player_interacts_with_entity(player, entity, hand) ->
+f:__on_player_jumps(player) ->
+f:__on_player_picks_up_item(player, item) ->
+f:__on_player_places_block(player, item_tuple, hand, block) ->
+f:__on_player_releases_item(player, item_tuple, hand) ->
+f:__on_player_rides(player, forward, strafe, jumping, sneaking) ->
+f:__on_player_right_clicks_block(player, item_tuple, hand, block, face, hitvec) ->
+f:__on_player_starts_sneaking(player) ->
+f:__on_player_starts_sprinting(player) ->
+f:__on_player_stops_sneaking(player) ->
 f:__on_player_stops_sprinting(player) ->
 f:__on_player_swings_hand(player, hand) ->
 f:__on_player_switches_slot(player, from, to) ->
 f:__on_player_swaps_hands(player) ->
 f:__on_player_takes_damage(player, amount, source, entity) ->
 f:__on_player_trades(player, entity, buy_left, buy_right, sell) ->
-f:__on_player_uses_item(player, item_tuple, hand) -> 
+f:__on_player_uses_item(player, item_tuple, hand) ->
 f:__on_player_wakes_up(player) ->
 f:__on_player_escapes_sleep(player) ->
 f:__on_statistic(player, category, event, value) ->
 f:__on_start() ->
 f:__on_tick() ->
-f:__on_tick_ender() -> 
-f:__on_tick_nether() -> 
-f:__on_player_takes_damage(player, amount, source, source_entity) -> 
-f:__on_player_deals_damage(player, amount, entity) -> 
-f:__on_player_dies(player) -> 
-f:__on_player_respawns(player) -> 
-f:__on_player_disconnects(player, reason) -> 
-f:__on_player_connects(player) -> 
+f:__on_tick_ender() ->
+f:__on_tick_nether() ->
+f:__on_player_takes_damage(player, amount, source, source_entity) ->
+f:__on_player_deals_damage(player, amount, entity) ->
+f:__on_player_dies(player) ->
+f:__on_player_respawns(player) ->
+f:__on_player_disconnects(player, reason) ->
+f:__on_player_connects(player) ->
 f:__on_explosion(pos, power, source, causer, mode, fire) ->
 f:__on_explosion_outcome(pos, power, source, causer, mode, fire, blocks, entities) ->
