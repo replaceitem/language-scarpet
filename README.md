@@ -1,4 +1,6 @@
-# Scarpet syntax highlighting and autocompletion for Atom
+# NOTE: This repository has been archived, because [Atom is being discontinued](https://github.blog/2022-06-08-sunsetting-atom/)
+#
+## Scarpet syntax highlighting and autocompletion for Atom
 
 ![Latest package version](https://img.shields.io/apm/v/language-scarpet.svg?colorB=brightgreen)
 
